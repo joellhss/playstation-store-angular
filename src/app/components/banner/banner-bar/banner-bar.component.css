@@ -1,0 +1,28 @@
+.container__banner-bar {
+  padding: 32px 72px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: white;
+}
+
+.container__banner-bar h1 {
+  font-weight: 200;
+  font-size: 1.625rem;
+}
+
+.container__banner-bar a {
+  background-color: #0070cc;
+  border-radius: 50px;
+  padding: 10px 20px;
+
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.container__banner-bar a:hover {
+  background-color: #00559a;
+}
