@@ -1,0 +1,25 @@
+<a href="#" class="image-container">
+  <img [src]="dataGame.coverImg" alt="Imagem Original" id="imagem">
+  <div class="overlay" (mouseover)="mostrarOverlay(true)" (mouseout)="mostrarOverlay(false)">
+
+    <div class="overlay-content">
+
+      <div class="card__label">
+        <p>{{ dataGame.label }}</p>
+      </div>
+
+      <div class="card__pricing">
+        <div class="card__pricing__content">
+          <h2>{{ dataGame.title }}</h2>
+          <ul>
+            <li *ngFor="let console of dataGame.console">{{ console }}</li>
+          </ul>
+        </div>
+
+        <h1 class="card__pricing__pricing">${{ dataGame.preco }}</h1>
+      </div>
+
+    </div>
+
+  </div>
+</a>

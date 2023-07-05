@@ -1,0 +1,14 @@
+.container__game-box {
+  width: 100%;
+
+  margin: 70px 0;
+
+  display: flex;
+  justify-content: center;
+}
+
+.container__game-box__box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
